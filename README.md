@@ -4,7 +4,7 @@ Welcome to the **Data Warehouse and Analytics Project** repository
 
 This project focuses on designing and implementing a modern data warehouse solution using SQL Server as the core database engine. The solution integrates data from six CSV files and applies a layered architecture approach to ensure scalability, data quality, and efficient analytics.
 
-The project follows the **Medallion Architecture** (Bronze, Silver, Gold layers), where data flows through three separate databases, each serving a distinct purpose:
+The project follows the **Medallion Architecture** (Bronze, Silver, Gold layers), where data flows through three separate schemas, each serving a distinct purpose:
 
 **1. Bronze Layer (Raw Data)**
 The Bronze database is used to ingest raw data directly from the CSV files using a *Truncate and Insert* approach.
