@@ -1,6 +1,6 @@
 /*
 ===================================================================
-Create Database and Schema
+Create Database and Schemas
 ===================================================================
 Script Purpose
 	This script creates a new database named 'Datawarehouse' after checking if it already exists.
